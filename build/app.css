@@ -1,0 +1,11 @@
+.top-menu {
+  display: block; }
+  .top-menu__item {
+    background-color: black; }
+.app {
+  height: 350px;
+  background: red; }
+
+.auth {
+  margin: 5px;
+  display: block; }

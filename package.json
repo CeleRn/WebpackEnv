@@ -1,0 +1,28 @@
+{
+  "name": "webpack-test",
+  "version": "0.0.0",
+  "description": "webpack test env",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server",
+    "build": "NODE_ENV=production webpack --progress" 
+  },
+  "author": "CeleRn",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "node-sass": "^4.5.3",
+    "path": "^0.12.7",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.1.0",
+    "webpack-dev-server": "^2.5.1"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^2.29.0",
+    "moment": "^2.18.1",
+    "normalize.css": "^7.0.0"
+  }
+}
